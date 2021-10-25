@@ -87,4 +87,8 @@ public class Media {
                 ", unikID=" + unikID +
                 '}';
     }
+
+    public void slet() {
+        System.out.println("Mediet er slettet.");
+    }
 }
