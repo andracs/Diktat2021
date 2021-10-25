@@ -13,13 +13,17 @@ public class Main {
         System.out.println("TV2 ØST mediehåndtering");
 
         // Instantier et medie-objekt
-        Media media1 = new Media();
+        Video video1 = new Video();
 
         // Instantier et medie-objekt med den anden constructor
         Media media2 = new Media("Hestelokkeren på Nordfalster", "Denne historie handler om dyr.", LocalDate.now());
 
         // Lav en løkke som opretter 50 medielementer
-        
+        for (int i = 0; i < 50; i++) {
+            Media media3 = new Media();
+        }
+
+
 
     }
 }
