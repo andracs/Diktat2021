@@ -6,6 +6,10 @@
  */
 
 public class Video extends Media {
+    // Duration 01:02:24.2
+    private double durationSecond;
+    // Videofilnavn /nyheder/pj345.mp4
+    private String videoFilNavn;
 
     @Override
     public String toString() {
@@ -16,5 +20,21 @@ public class Video extends Media {
                 ", modifiedDate=" + super.getModifiedDate() +
                 ", unikID=" + super.getUnikID() +
                 '}';
+    }
+
+    public double getDurationSecond() {
+        return durationSecond;
+    }
+
+    public void setDurationSecond(double durationSecond) {
+        this.durationSecond = durationSecond;
+    }
+
+    public String getVideoFilNavn() {
+        return videoFilNavn;
+    }
+
+    public void setVideoFilNavn(String videoFilNavn) {
+        this.videoFilNavn = videoFilNavn;
     }
 }
