@@ -18,5 +18,8 @@ public class Main {
         // Instantier et medie-objekt med den anden constructor
         Media media2 = new Media("Hestelokkeren på Nordfalster", "Denne historie handler om dyr.", LocalDate.now());
 
+        // Lav en løkke som opretter 50 medielementer
+        
+
     }
 }
