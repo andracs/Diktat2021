@@ -22,11 +22,12 @@ public class Media {
 
     // No-arg constructor
     public Media() {
-        System.out.println("Et nyt medieobjekt er oprettet.");
+        System.out.println("Et nyt blankt medieobjekt er oprettet.");
     }
 
     // Lav en constructor som tager imod alle instansvariabler, undtagen unikID og modifiedDate
     public Media(String titel, String beskrivelse, LocalDate createdDate) {
+        System.out.println("Et nyt rigtigt medieobjekt er oprettet.");
         this.titel = titel;
         this.beskrivelse = beskrivelse;
         this.createdDate = createdDate;
